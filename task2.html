@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 2 - Component Library</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+  <div class="library-container">
+    
+
+    <section class="component">
+      <h2>1. Navigation Bar</h2>
+      <nav class="navbar">
+        <div class="logo">MyBrand</div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services & Features</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="nav-buttons">
+          <button class="btn btn-outline">Log In</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+      </nav>
+    </section>
+
+    <section class="component">
+      <h2>2. Equal Height Cards</h2>
+      <div class="card-row">
+        <div class="card">
+          <h3>Basic Service</h3>
+          <p>Short description of this service.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="card">
+          <h3>Standard Service</h3>
+          <p>A detailed description that takes slightly more space to show flexible height handling without rigid limits.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="card">
+          <h3>Pro Service</h3>
+          <p>This is a very long text to test how the card grows while keeping the overall layout intact, clean, and flexible for any content size without breaks.</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2>3. Pagination Bar</h2>
+      <div class="pagination-bar">
+        <div class="page-controls">
+          <button class="btn-icon">&laquo;</button>
+          <div class="pages">
+            <span class="page active">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <span class="page">...</span>
+            <span class="page">10</span>
+          </div>
+          <button class="btn-icon">&raquo;</button>
+        </div>
+        <div class="results-count">Showing 1-10 of 100 results</div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2>4. Comment Block</h2>
+      <div class="comment">
+        <img src="https://via.placeholder.com/60" alt="Avatar" class="avatar">
+        <div class="comment-content">
+          <h4>John Doe</h4>
+          <p>This is a user comment where the text cleanly wraps alongside the user's avatar image without ever sliding underneath it, regardless of length.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2>5. Pricing Table</h2>
+      <div class="pricing-table">
+        <div class="plan">
+          <h3>Basic</h3>
+          <p class="price">$10/mo</p>
+          <p>Essential features for personal use.</p>
+          <button class="btn btn-outline">Select Plan</button>
+        </div>
+        <div class="plan recommended">
+          <span class="badge">Recommended</span>
+          <h3>Pro Plan</h3>
+          <p class="price">$29/mo</p>
+          <p>Advanced features for growing teams and business scaling.</p>
+          <button class="btn btn-primary">Select Plan</button>
+        </div>
+        <div class="plan">
+          <h3>Enterprise</h3>
+          <p class="price">$99/mo</p>
+          <p>Full suite with dedicated support.</p>
+          <button class="btn btn-outline">Select Plan</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
